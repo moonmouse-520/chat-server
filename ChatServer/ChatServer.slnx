@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../../../QT/qtprojects/Wechat/Wechat.vcxproj" Id="f02a143c-5b0c-3aa7-925b-cb065d675238">
+    <Platform Project="x64" />
+  </Project>
+  <Project Path="ChatServer/ChatServer.vcxproj" Id="3290f7f4-5982-43f3-a261-9ca40fd31863" />
+</Solution>

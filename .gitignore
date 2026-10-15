@@ -1,0 +1,33 @@
+﻿
+# ===== 编译产物 / IDE 缓存（这几个目录合计 1.5 GB）=====
+x64/
+Debug/
+Release/
+.vs/
+ipch/
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.tlog
+*.log
+
+# ===== 含密码的配置：本地留、不进仓库 =====
+config.ini
+!config.ini.example
+
+# ===== Node（VarifyServer）=====
+node_modules/
+config.json
+
+# ===== Visual Studio 私有文件 =====
+*.user
+*.suo
+*.VC.db
+
+# ===== 系统垃圾 =====
+Thumbs.db
+desktop.ini
