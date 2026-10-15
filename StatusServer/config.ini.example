@@ -1,0 +1,30 @@
+[GateServer]
+Port=8080
+[VarifyServer]
+Host=127.0.0.1
+Port=50051
+[Mysql]
+Host=127.0.0.1
+Port=3306
+User=llfc
+Passwd=你的密码
+Schema=llfc
+[Redis]
+Host=127.0.0.1
+Port=6380
+Passwd=你的密码
+[StatusServer]
+Host=0.0.0.0
+Port=50052
+; ---- 下面是 StatusServiceImpl 构造时要读的 chat server 列表 ----
+; Name 是逗号分隔的名字表，每个名字对应下面一个同名 section
+[chatservers]
+Name=chatserver1,chatserver2
+[chatserver1]
+Name=chatserver1
+Host=127.0.0.1
+Port=8990
+[chatserver2]
+Name=chatserver2
+Host=127.0.0.1
+Port=8991
